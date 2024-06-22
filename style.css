@@ -161,7 +161,9 @@ small {
 }
 
 @media (max-width:738px) {
-
+    .hero-text {
+        height: 60vh;
+    }
     
     .bio-container {
         padding: 16px 0px !important;
@@ -174,10 +176,6 @@ small {
 }
 
 @media (max-width:425px) {
-    .hero-text {
-        height: 60vh;
-    }
-    
     .profile-img {
         height: 100%;
         width: 100%;
