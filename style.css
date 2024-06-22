@@ -1,0 +1,182 @@
+body {
+    font-family: "Average Sans", sans-serif;
+    background-color: #EEEEEE;
+    text-align: center;
+}
+
+h1, h2 {
+    font-family: "Playwrite NG Modern", serif;
+    font-size: 3rem;
+    color: #DC5F00;
+    font-weight: bold;
+}
+
+h3 {
+    margin-top: 2rem;
+    color: #373A40;
+    font-weight: bold;
+}
+
+p {
+    color: #373A40;
+    font-size: 1.5rem;
+    font-family: "Average Sans", sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+small {
+    color: #fff;
+    font-size: 1rem;
+    font-family: "Average Sans", sans-serif;
+}
+
+.hero {
+    position: relative;
+}
+
+.hero-text {
+    display: flex;
+    height: 100vh;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.hero-text > h3, h1 {
+    font-weight: bold;
+    text-align: center;
+}
+
+.hero-text > img {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: -1;
+}
+
+.profile-img {
+    height: 300px;
+    border-radius: 150px;
+}
+
+.profile-bio {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.profile-bio > img {
+    height: 80px;
+    width: 100%;
+    padding-left: 64px;
+}
+
+.profile-bio > .about-bio > h3 {
+    color: #686D76;
+    font-size: 48px;
+    font-weight: bold;
+}
+
+.my-skills {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+}
+
+.skill-container {
+    display: flex;
+}
+.hobby-img {
+    height: 250px;
+    border-radius: 8px;
+    margin-right: 40px;
+}
+
+.skill-deets > h3 {
+    font-weight: 800;
+    font-size: 2rem;
+}
+
+.skill-deets {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+
+.hrule {
+    height: 80px;
+    width: 100%;
+    padding-left: 64px;
+}
+
+.btn-warning {
+    --bs-btn-color: #fff !important;
+    --bs-btn-bg: #DC5F00;
+    --bs-btn-border-color: #DC5F00;
+    --bs-btn-hover-color: #000;
+    --bs-btn-hover-bg: #d1742e;
+    --bs-btn-hover-border-color: #DC5F00;
+}
+
+.btn {
+    --bs-btn-padding-x: 1.5rem;
+    --bs-btn-padding-y: 0.8rem;
+}
+
+.social-media {
+    display: flex;
+    justify-content: space-around;
+}
+
+.social-media > a > img {
+    height: 50px;
+}
+
+.footer {
+    background-color: #373A40;
+}
+
+@media (max-width:920px) {
+    .hobby-img {
+        height: 1000%;
+        width: 100%;
+    }
+    .my-skills {
+        display: block;
+        flex-direction: column;
+        align-content: center;
+    }
+
+    .skill-container {
+        display: block;
+    }
+
+    .skill-deets {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+}
+
+@media (max-width:738px) {
+
+    
+    .bio-container {
+        padding: 16px 0px !important;
+    }
+
+    .skill-container {
+        padding: 0 !important;
+        margin-bottom: 16px !important;
+    }
+}
+
+@media (max-width:425px) {
+    .profile-img {
+        height: 100%;
+        width: 100%;
+        border-radius: 50%;
+    }
+}
